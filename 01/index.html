@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>DesafíoLatam Ejercicio 01 Float</title>
+	<title>DesafíoLatam Ejercicio 01 Fixed</title>
 	<style>
 		* {
 			box-sizing: border-box;
@@ -32,9 +32,27 @@
 		.box img {
 			width: 100%;
 		}
+		.nav {
+			position: fixed;
+			background-color: darkslategray;
+			width: 100%;
+			top: 0;
+			left: 0;
+		}
+		.nav h1 {
+			color: white;
+			text-align: center;
+		}
+		.padding {
+			padding: 3em;
+		}
 	</style>
 </head>
 <body>
+	<div class="nav">
+		<h1>NAV</h1>
+	</div>
+	<div class="padding"></div>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, quae! Amet suscipit delectus reiciendis, voluptatibus veniam tenetur ullam, animi iusto, laborum corporis recusandae ratione vitae incidunt, architecto hic. Aliquid, odio.</p>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam architecto quaerat voluptatem, perferendis obcaecati. Natus cum, quas. Quasi minima, culpa nulla dicta non, eveniet, obcaecati natus aperiam, recusandae sapiente animi.</p>
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum, quae! Amet suscipit delectus reiciendis, voluptatibus veniam tenetur ullam, animi iusto, laborum corporis recusandae ratione vitae incidunt, architecto hic. Aliquid, odio.</p>

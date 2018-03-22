@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>DesafíoLatam Ejercicio 03 </title>
+	<style>
+		* {
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		.box {
+			width: 50%;
+			padding: 10px 0;
+			float: left;
+			position: relative;
+		}
+		.box_2 {
+			padding-top: 350px;
+		}
+		.relative {
+			position: relative;
+		}
+		.gen {
+			position: absolute;
+			width: 500px;
+		}
+		.esp-01 {
+			background-color: red;
+			height: 80px;
+			top: 0;
+		}
+		.esp-02 {
+			background-color: yellow;
+			top: 80px;
+			height: 140px;
+		}
+		.esp-03 {
+			background-color: red;
+			height: 80px;
+			top: 220px;
+		}
+		.din {
+			background-color: red;
+			height: 290px;
+		}
+		.din-2{
+			height: 30px;
+			top: 132px;
+			background-color: white;
+			width: 500px;
+		}
+		.din-3{
+			height: 290px;
+			background-color: white;
+			width: 30px;
+			left: 140px;
+		}
+		.em-01 {
+			height: 288px;
+			background-color: red;
+			width: 100px;
+			top: 0;
+		}
+		.em-02 {
+			width: 400px;
+			left: 100px;
+			background-color: green;
+			height: 96px;
+		}
+		.em-03 {
+			width: 400px;
+			left: 100px;
+			background-color: white;
+			top: 96px;
+			height: 96px;
+		}
+		.em-04 {
+			width: 400px;
+			left: 100px;
+			background-color: black;
+			top: 192px;
+			height: 96px;
+		}
+		.jp-01 {
+			background-color: white;
+			height: 290px;
+			border: 1px solid #000;
+		}
+		.jp-02 {
+			background-color: red;
+			width: 166px;
+			height: 166px;
+			top: 65px;
+			left: 170px;
+			border-radius: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="relative">
+			<div class="gen esp-01"></div>
+			<div class="gen esp-02"></div>
+			<div class="gen esp-03"></div>
+		</div>
+	</div>
+	<div class="box">
+		<div class="relative">
+			<div class="gen din"></div>
+			<div class="gen din-2"></div>
+			<div class="gen din-3"></div>
+		</div>
+	</div>
+	<div class="box box_2">
+		<div class="relative">
+			<div class="gen em-01"></div>
+			<div class="gen em-02"></div>
+			<div class="gen em-03"></div>
+			<div class="gen em-04"></div>
+		</div>
+	</div>
+	<div class="box box_2">
+		<div class="relative">
+			<div class="gen jp-01"></div>
+			<div class="gen jp-02"></div>
+		</div>
+	</div>
+	
+</body>
+</html>
